@@ -28,7 +28,7 @@ var StudentSchema = new Schema({
     required: 'SecondName cannot be blank'
   },
 
-StudentID: {
+  StudentID: {
     type: String,
     default: '',
     trim: true,
@@ -41,7 +41,7 @@ StudentID: {
     required: 'Date of Birth cannot be blank'
   },
 
-StudentBatch: {
+  StudentBatch: {
     type: String,
     default: '',
     trim: true,
